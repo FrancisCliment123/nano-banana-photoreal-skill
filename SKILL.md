@@ -225,11 +225,15 @@ templates/
 
 reference/
   photorealism-core.md            ← The 5-layer algorithm in depth
+  camera-roll-energy.md           ← CRITICAL: kill photographer moves for viral social
   camera-tokens.md                ← Every camera/lens token and what it does
   lighting-tokens.md              ← Directional lighting vocabulary
   skin-texture.md                 ← Anti-plastic skin tokens
   negative-prompts.md             ← Copy-paste exclusion blocks
   text-rendering.md               ← The two-step method + code
+
+scripts/
+  add-hook-text.js                ← Playwright overlay for Step 2 (hook text on photo)
 
 examples/
   bad-vs-good.md                  ← Before/after comparison of real prompts

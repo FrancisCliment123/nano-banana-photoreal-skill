@@ -5,9 +5,24 @@ where the payoff is "this is a real human talking to me." The person in the imag
 read as authentic — like a real creator pulled a photo from their camera roll — not like
 an AI-generated headshot.
 
-**This is the user's #1 use case.** The good screenshot they showed:
-a guy on a snowy ski slope, winter jacket, slight smile, real phone photo energy,
-with bold white text overlaid: *"HOW TO START INVESTING STEP BY STEP — from a 24 year old who built a 6-figure portfolio."*
+## Critical prerequisite: read `reference/camera-roll-energy.md` first
+
+The biggest trap for viral hook images is **photographer energy**: golden hour
+sidelight + shallow depth of field + centered composition + subject facing camera
++ styled outfit. Even with perfect photorealism tokens, this composition makes
+the output look "staged AI image."
+
+**For viral social content, push every slider toward camera-roll energy:**
+- Flat overcast light (NOT golden hour)
+- Everything mostly in focus (NOT shallow DoF / bokeh)
+- Off-center, slightly tilted framing (NOT centered)
+- Subject looking at phone / off-frame (NOT facing camera)
+- Cluttered background with real street mess (NOT clean / minimalist)
+- Wrinkled, basic clothes (NOT styled outfit)
+
+The template below bakes this in. **Do not remove these signals** unless you
+specifically want editorial energy (e.g. About Page portraits — use
+`lifestyle-portrait.md` for those).
 
 ## Rule #1 — No text in the generation
 
@@ -16,51 +31,105 @@ The prompt should explicitly say: `no text, no captions, no writing, no watermar
 
 ---
 
-## The template
+## The template (camera-roll energy — USE THIS)
 
-Fill the `{BRACKETED}` slots. Keep total length 25–60 words.
+Fill the `{BRACKETED}` slots. This longer-than-usual template explicitly bakes
+in all 7 camera-roll moves. Do not strip for length — each signal matters.
 
 ```
-Candid iPhone photo of {SUBJECT with 1 specific imperfection} in {GROUNDED LOCATION},
-{LAYER 1 ACTION}. {LIGHTING: directional + time of day}.
-Shot on iPhone 15 Pro, rear camera, slight motion blur, visible skin pores,
-peach fuzz on jaw, cinematic catchlight in eyes, slight asymmetry in face.
-9:16 aspect ratio. No text, no captions, no writing in the image.
-Avoid: smooth skin filter, beauty retouch, plastic skin, airbrushed, symmetrical face,
-HDR glow, AI aesthetic, stock photo feel.
+Random iPhone snapshot of {SUBJECT — age + wrinkled/basic clothing + imperfection},
+{CANDID ACTION — not facing camera, e.g. "looking down at phone"}, {SLIGHT SLOUCH
+OR HUMAN DETAIL}, not facing the camera.
+
+{BACKGROUND CLUTTER — name 2-3 messy elements: pedestrians, bus, trash bin, etc.}
+
+Flat overcast {TIME} light, no golden hour, no rim light, even dull diffusion.
+
+Shot on iPhone 13, rear camera, handheld shaky framing slightly tilted,
+visible JPEG compression artifacts, slight motion blur, slight noise in shadows,
+visible skin pores, {IMPERFECTION: uneven stubble / under-eye shadows / etc.},
+faint asymmetry in face.
+
+Off-center composition with subject in {left|right} half. 9:16 aspect ratio.
+No text, no captions, no readable signs.
+
+Avoid: smooth skin filter, beauty retouch, plastic skin, airbrushed,
+symmetrical face, HDR glow, AI aesthetic, stock photo feel, supermodel look,
+male model look, professional photograph, magazine cover, centered composition,
+golden hour, bokeh background, shallow depth of field, styled outfit, posed,
+photoshoot energy.
 ```
+
+**Word count:** ~100 words. That's intentional — the anti-photographer signals
+need to overpower the model's default bias.
 
 ---
 
-## Worked example (finance creator, ski slope)
+## Worked example (the one that worked on the user's "too AI" test)
 
-**User concept:** "guy on a ski slope talking about investing"
+**User concept:** "normal person, not too prepared, phone-taken picture feel"
 
 **Filled template:**
 
 ```
-Candid iPhone photo of a 24-year-old man in a brown puffer jacket and white beanie,
-standing on a snowy mountain terrace with ski lifts and fog in the background,
-slight crooked smile, hands relaxed at sides. Overcast alpine light, soft diffusion,
-no hard shadows. Shot on iPhone 15 Pro, rear camera, slight motion blur, visible
-skin pores, peach fuzz on jaw, cinematic catchlight in eyes. 9:16 aspect ratio.
-No text, no captions, no writing in the image.
+Random iPhone snapshot of a 28-year-old man in a slightly wrinkled grey hoodie
+and faded black jeans, mid-stride on a crowded Barcelona sidewalk, looking down
+at his phone in one hand, slight slouch, other hand holding a takeaway coffee
+cup, not facing the camera.
+
+Other pedestrians slightly visible in the background, some out of focus, a bus
+passing behind, a trash bin on the left edge of frame.
+
+Flat overcast midday light, no golden hour, no rim light, even dull diffusion.
+
+Shot on iPhone 13, rear camera, handheld shaky framing slightly tilted, visible
+JPEG compression artifacts, slight motion blur on hand and phone, slight noise
+in shadows, visible skin pores, uneven stubble with patchy growth, slight
+under-eye shadow, faint asymmetry in face.
+
+Off-center composition with subject in right half. 9:16 aspect ratio. No text,
+no captions, no readable signs.
+
 Avoid: smooth skin filter, beauty retouch, plastic skin, airbrushed, symmetrical
-face, HDR glow, AI aesthetic, stock photo feel, supermodel look.
+face, HDR glow, AI aesthetic, stock photo feel, supermodel look, male model look,
+professional photograph, magazine cover, centered composition, golden hour, bokeh
+background, shallow depth of field, styled outfit, posed, photoshoot energy.
 ```
 
-**Why this works:**
-- **"24-year-old"** → specific age, not "young man" (idealization trigger)
-- **"brown puffer jacket and white beanie"** → lived-in clothes, not "stylish outfit"
-- **"snowy mountain terrace with ski lifts and fog"** → grounded location, AI has anchors
-- **"slight crooked smile"** → asymmetry, breaks doll-face default
-- **"Overcast alpine light, soft diffusion"** → directional lighting Nano Banana understands
-- **"iPhone 15 Pro, rear camera"** → THE most important token for phone-camera authenticity
-- **"slight motion blur"** → mimics a real snapshot, not a posed photo
-- **"visible skin pores, peach fuzz on jaw, catchlight in eyes"** → anti-plastic trio
-- **"9:16 aspect ratio"** → vertical for phone feed (never 1:1 — looks like passport)
-- **"No text"** → explicit, so Nano Banana doesn't try to render a caption
-- **"supermodel look"** in negatives → extra insurance against idealization
+**Why this works — the camera-roll signals doing the work:**
+
+| Signal | Token that fires it |
+|---|---|
+| Not facing camera | "looking down at his phone in one hand, not facing the camera" |
+| Background clutter | "pedestrians... a bus passing behind, a trash bin on left edge" |
+| Flat / non-dramatic light | "flat overcast midday light, no golden hour, no rim light" |
+| Amateur framing | "handheld shaky framing slightly tilted, off-center" |
+| Lived-in clothes | "slightly wrinkled grey hoodie, faded black jeans" |
+| Compression authenticity | "visible JPEG compression artifacts, slight noise in shadows" |
+| Human imperfection | "uneven stubble with patchy growth, slight under-eye shadow" |
+| Expanded anti-photographer negatives | "golden hour, bokeh, shallow DoF, centered, posed, photoshoot energy" |
+
+**Result:** viewer reads "a friend took a pic of this guy walking" — not
+"this was posed for a photographer." That's the signal that unlocks viral feel.
+
+### Alternative (ski slope variant, matches user's original reference)
+
+```
+Random iPhone snapshot of a 24-year-old man in a brown puffer jacket and white
+beanie, standing on a snowy mountain terrace looking off-frame at the view,
+not facing camera, one hand holding ski poles loosely, slight slouch. Other
+skiers visible in the background, a ski lift pylon on the right edge of frame,
+cable blurred by movement. Flat overcast alpine light, no golden hour, no rim
+light, even dull diffusion. Shot on iPhone 13, rear camera, handheld slightly
+tilted, visible JPEG compression artifacts, slight motion blur, slight noise
+in shadows, visible skin pores, uneven stubble with patchy growth, faint
+asymmetry in face. Off-center composition with subject in right half.
+9:16 aspect ratio. No text, no captions, no readable signs.
+Avoid: smooth skin filter, beauty retouch, plastic skin, airbrushed, symmetrical
+face, HDR glow, AI aesthetic, stock photo feel, supermodel look, male model
+look, magazine cover, centered composition, golden hour, bokeh, shallow depth
+of field, styled outfit, posed, photoshoot energy.
+```
 
 ---
 
