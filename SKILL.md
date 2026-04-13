@@ -70,10 +70,16 @@ User wants an image with a person?
     │   │
     │   └── NO (object / flat-lay / POV no-face)
     │         → Use templates/personal-gallery-aesthetic.md
-    │         (moody low-key lighting, dark surfaces, tight crop, 4:5)
+    │         (tight crop, 4:5, intentionally asymmetric, feels like a phone
+    │          gallery photo — NOT staged)
     │         ⚠ This is a STRICT COOKBOOK. Fill slots, don't improvise.
-    │         Check the 13-point sanity list before rendering.
-    │         Library of 10+ tested niche prompts included.
+    │         5 VIBE PACKS available — pick ONE first:
+    │           1. Dark Warm (default, walnut + tungsten)
+    │           2. Blue Neon Night (LED ambient, car/tech at night)
+    │           3. City Skyline Luxury (rooftop + distant skyscrapers)
+    │           4. Cold Minimal AM (pale oak, soft overcast window)
+    │           5. Golden Hour Euro (travertine, honey sidelight)
+    │         Library of 18+ tested niche prompts across all 5 vibes.
     │
     └── NOT a hook — pick the closest template:
               - candid-phone-selfie.md (casual lifestyle with face)

@@ -89,9 +89,95 @@ Every shot in this aesthetic follows this spatial layout. Memorize it.
 
 ---
 
-## Niche library — copy-paste prompts (tested, work on first try)
+## Vibe packs — pick ONE before filling the formula
 
-Each of these is a fully filled-in prompt. Copy, paste, modify lightly if needed.
+The formula above is written for **Dark Warm** (walnut, tungsten, brown + black) — the default
+that produced the original reference aesthetic. The same "personal gallery" feel can be rendered
+in 4 more vibes by swapping the vibe-dependent slots. **Pick ONE vibe pack first, then fill the formula.**
+
+**Vibe-dependent slots** (swap per vibe):
+- `{SURFACE}` — from the vibe's surface list
+- Lighting phrase (temperature + direction)
+- Highlight accent color / material
+- `{COLOR}` dominant palette tones
+- Vibe-specific extra negatives
+
+**Vibe-independent rules** (never change, apply to all vibes):
+- Asymmetric composition, offset hero object
+- Top half empty (or distant bokeh for city skyline) — text zone
+- 4:5 aspect ratio
+- `Shot on iPhone 15 Pro, rear camera` + JPEG compression + chromatic aberration + noise
+- One light direction (never "even" / "from above")
+- At least one prop cropped by frame edge
+- No text, no readable labels, no brand logos
+
+---
+
+### Vibe 1 — DARK WARM *(default, reference)*
+
+| Slot | Values |
+|---|---|
+| Surfaces | dark walnut wood, dark charcoal marble, matte black leather, rumpled grey linen, dark concrete, distressed black wood, black velvet |
+| Lighting | `Very dim low-key warm lighting from the upper-{left\|right}, deep heavy shadows dominating the whole frame` |
+| Accent | warm brass / silver / ceramic highlight on ONE detail |
+| Palette | deep brown + charcoal + near-black |
+| Extra negatives | *(none — handled by base negatives)* |
+
+### Vibe 2 — BLUE NEON NIGHT
+
+| Slot | Values |
+|---|---|
+| Surfaces | black leather car interior, carbon fiber dashboard, dark brushed aluminum, wet black asphalt, glossy black granite, dark tinted glass |
+| Lighting | `Very dim low-key cyan-blue ambient LED lighting from the upper-{left\|right}, deep heavy shadows dominating the whole frame, blue neon strip visible in the edge of the frame` |
+| Accent | cool cyan / electric blue / faint purple edge-light on stitching, screen bezel, or metal rim |
+| Palette | near-black + deep navy + electric blue |
+| Extra negatives | `warm orange tones, sunset lighting, golden hour, candlelight, tungsten lighting, warm highlights` |
+
+### Vibe 3 — CITY SKYLINE LUXURY
+
+| Slot | Values |
+|---|---|
+| Surfaces | wet city asphalt, rooftop marble ledge, matte metal balcony rail, dark glass-topped terrace table, polished stone parapet |
+| Lighting | `Very dim nighttime urban lighting with distant skyscraper bokeh filling the top half of the frame, cool bluish haze, scattered warm window-light dots far in the background` |
+| Accent | car paint highlight + water reflection + scattered distant amber window lights |
+| Palette | cool blue + deep navy + distant warm amber city-light dots |
+| Extra negatives | `daylight, empty sky, studio lighting, flat background, interior shot, bright sun, warm golden hour` |
+| Composition override | Top half = distant out-of-focus skyline (replaces empty dark surface — skyline IS the text zone) |
+
+### Vibe 4 — COLD MINIMAL AM
+
+| Slot | Values |
+|---|---|
+| Surfaces | pale oak wood, cream linen, soft grey felt, pale travertine, light concrete, white ceramic tile |
+| Lighting | `Soft overcast window light from the upper-{left\|right}, even but directional, muted soft shadows, no hard highlights` |
+| Accent | brushed steel / ceramic white / single green sprig |
+| Palette | cream + warm grey + soft beige + muted white |
+| Extra negatives | `dark moody lighting, low-key shadows, heavy shadows, near-black tones, tungsten warmth, neon, LED glow` |
+
+### Vibe 5 — GOLDEN HOUR EURO
+
+| Slot | Values |
+|---|---|
+| Surfaces | sun-warmed travertine, terracotta tile, weathered oak, pale linen tablecloth over stone, rattan-topped table |
+| Lighting | `Low golden-hour sidelight from the upper-{left\|right}, warm long shadows raking diagonally across the surface, subtle lens flare at the edge` |
+| Accent | brass / old gold / honey-amber glass |
+| Palette | honey amber + olive green + sun-warmed beige |
+| Extra negatives | `nighttime, cool blue tones, LED lighting, dark moody lighting, overcast, cloudy` |
+
+---
+
+### One rule for mixing vibes
+
+**Don't.** A carousel or 2x2 grid must use ONE vibe across every slide. Mixing vibes is the
+"4 photos feel incoherent" failure. If the brief asks for multiple vibes, split into multiple
+carousels — one per vibe — instead of mixing them inside one.
+
+---
+
+## Niche library — DARK WARM (default vibe)
+
+Each of these is a fully filled-in prompt for the default Dark Warm vibe. Copy, paste, modify
+lightly if needed. For the same niches in other vibes, see the vibe-specific libraries below.
 
 ### 💰 Finance / money / investing
 
@@ -347,6 +433,227 @@ balanced composition, symmetrical composition, objects in upper half of frame.
 
 ---
 
+## Niche library — BLUE NEON NIGHT
+
+### 🚗 Car / night drive (POV from driver seat)
+
+```
+First-person POV from the driver seat of a modern sports car at night in an
+underground parking garage, shot with significant empty dark interior space
+filling the top half of the frame. In the lower half: the steering wheel placed
+asymmetrically slightly to the left of center with one relaxed hand resting
+loosely on it, the center dashboard display glowing faint white with a music
+app visible but text unreadable, the edge of the passenger seat with stitching
+detail partially cropped by the bottom-right frame. Very dim low-key cyan-blue
+ambient LED lighting coming from the door trim and dashboard strip, deep heavy
+shadows dominating the whole frame, subtle cool blue highlights only on the
+steering wheel stitching and the edge of the dashboard screen, the rest mostly
+near-black and deep navy tones. Wide framing with lots of empty dark interior
+above the wheel. Shot on iPhone 15 Pro, rear camera, intentionally asymmetric
+composition, slight chromatic aberration, minor JPEG compression artifacts,
+slight noise in shadows. Moody personal-gallery aesthetic, like a photo I took
+casually sitting in my car at night. 4:5 aspect ratio. No text, no captions, no
+readable labels, no brand logos, no visible dashboard writing. Avoid: stock
+photo feel, car ad aesthetic, professional automotive photography, bright
+studio lighting, HDR glow, commercial product shot, evenly lit, balanced
+composition, symmetrical composition, objects in upper half of frame, warm
+orange tones, sunset lighting, golden hour, tungsten lighting, warm highlights.
+```
+**Hook text:** `"Process" / "Enjoy the process. The wins come quieter than you think — and most of them come at night."`
+
+### 💻 Tech / deep-work desk at night
+
+```
+Top-down iPhone photo of a black brushed-aluminum desk mat, shot with
+significant empty dark mat space filling the top half of the frame. In the
+lower half: a mechanical keyboard with faintly glowing cyan keycaps placed
+asymmetrically slightly to the right of center, a dark gaming mouse with a
+thin RGB strip glowing cool blue in the middle-left, an iPhone face-down with
+the back reflecting a faint blue LED from a nearby light strip at the
+bottom-right edge partially cropped by the frame. Very dim low-key cyan-blue
+ambient LED lighting from the upper-left coming from an off-frame desk LED
+strip, deep heavy shadows dominating the whole frame, subtle cool blue
+highlights only on the keycap edges and the mouse RGB, the rest mostly
+near-black and deep navy tones. Wide framing with lots of empty dark mat
+above the objects. Shot on iPhone 15 Pro, rear camera, slightly angled
+top-down view, tight crop, intentionally asymmetric composition, slight
+chromatic aberration, minor JPEG compression artifacts, slight noise in
+shadows. Moody personal-gallery aesthetic. 4:5 aspect ratio. No text, no
+captions, no readable labels, no brand logos, no writing on keys. Avoid:
+stock photo feel, product photography, bright studio lighting, HDR glow,
+commercial product shot, evenly lit, balanced composition, symmetrical
+composition, objects in upper half of frame, warm orange tones, golden hour,
+tungsten lighting, warm highlights.
+```
+**Hook text:** `"Focus" / "The hours after midnight are mine. No DMs, no meetings — just the work and the screen."`
+
+---
+
+## Niche library — CITY SKYLINE LUXURY
+
+### 🏙️ Sports cars + skyline (low wide angle)
+
+```
+Low wide-angle iPhone photo of two dark-colored sports cars parked side by
+side on a marina waterfront at night, shot with significant empty
+skyline-and-water space filling the top half of the frame. In the lower half:
+the two cars placed asymmetrically slightly to the left of center with
+aggressive wide rear wings in silhouette, the edge of a polished stone
+parapet partially cropped at the bottom-right frame, faint reflections of
+city lights on the wet ground between the cars. Very dim nighttime urban
+lighting with distant skyscraper bokeh filling the top half of the frame,
+cool bluish haze, scattered warm window-light dots far in the background,
+subtle amber reflections only on the car paint and the wet stone, the rest
+mostly cool blue and deep navy tones. Shot on iPhone 15 Pro, rear camera,
+slightly low angle, tight vertical crop, intentionally asymmetric
+composition, slight chromatic aberration, minor JPEG compression artifacts,
+slight noise in shadows. Moody personal-gallery aesthetic, like a photo I
+took late at night by the water. 4:5 aspect ratio. No text, no captions, no
+readable labels, no brand logos, no license plates. Avoid: stock photo feel,
+car ad aesthetic, professional automotive photography, daylight, empty sky,
+bright studio lighting, HDR glow, commercial product shot, evenly lit,
+balanced composition, symmetrical composition, warm golden hour.
+```
+**Hook text:** `"Built" / "Nobody built this overnight. Every car in this picture is someone's decade of obsession."`
+
+### ⌚ Watch on rooftop ledge (skyline backdrop)
+
+```
+Top-down angled iPhone photo of a polished dark stone rooftop ledge at night
+with a distant blurred city skyline filling the top half of the frame. In
+the lower half: a leather-strap wristwatch with a dark face placed
+asymmetrically slightly to the right of center resting on the stone, a small
+pair of car keys with a metal ring in the middle-left, a short glass of amber
+liquid at the bottom-right edge partially cropped by the frame. Very dim
+nighttime urban lighting with distant skyscraper bokeh filling the top half
+of the frame, cool bluish haze, scattered warm window-light dots far in the
+background, subtle warm highlights only on the watch crystal and the amber
+liquid in the glass, the rest mostly cool blue and deep navy tones. Shot on
+iPhone 15 Pro, rear camera, slightly angled top-down view, tight crop,
+intentionally asymmetric composition, slight chromatic aberration, minor
+JPEG compression artifacts, slight noise in shadows. Moody personal-gallery
+aesthetic, like a photo I took on a balcony late at night. 4:5 aspect ratio.
+No text, no captions, no readable labels, no brand logos. Avoid: stock photo
+feel, luxury ad aesthetic, professional photography, daylight, bright studio
+lighting, HDR glow, commercial product shot, evenly lit, balanced
+composition, symmetrical composition, warm golden hour.
+```
+**Hook text:** `"View" / "You don't chase the view. You build the life where the view comes with the routine."`
+
+---
+
+## Niche library — COLD MINIMAL AM
+
+### ☕ Quiet morning oak desk
+
+```
+Top-down iPhone photo of a pale oak wood desk, shot with significant empty
+wood space filling the top half of the frame. In the lower half: a white
+ceramic pour-over carafe placed asymmetrically slightly to the right of
+center, a small white ceramic cup filled with black coffee in the
+middle-left, a thin-spine notebook with a cream linen cover at the
+bottom-left edge partially cropped by the frame. Soft overcast window light
+from the upper-left, even but directional, muted soft shadows, no hard
+highlights, subtle cool highlights only on the rim of the carafe and the
+cup, the rest mostly cream and warm grey tones. Wide framing with lots of
+empty pale wood above the objects. Shot on iPhone 15 Pro, rear camera,
+slightly angled top-down view, tight crop, intentionally asymmetric
+composition, slight chromatic aberration, minor JPEG compression artifacts,
+slight noise in shadows. Minimal personal-gallery aesthetic, like a quiet
+morning photo I took before work. 4:5 aspect ratio. No text, no captions,
+no readable labels, no brand logos, no writing on the notebook. Avoid:
+stock photo feel, lifestyle ad aesthetic, professional photography, studio
+lighting, HDR glow, commercial product shot, evenly lit, balanced
+composition, symmetrical composition, objects in upper half of frame, dark
+moody lighting, heavy shadows, near-black tones, tungsten warmth, neon,
+LED glow.
+```
+**Hook text:** `"Morning" / "The quiet hour before the day starts is the only time I fully own. Everything else is someone else's priority."`
+
+### 📖 Linen bed reading
+
+```
+Top-down iPhone photo of a rumpled cream linen bedsheet, shot with
+significant empty sheet space filling the top half of the frame. In the
+lower half: an open hardcover book with a soft beige cover placed
+asymmetrically slightly to the left of center with pages visible but text
+unreadable, a small white ceramic mug at the bottom-right edge partially
+cropped by the frame, a pair of thin-framed reading glasses resting on the
+corner of the book. Soft overcast window light from the upper-right, even
+but directional, muted soft shadows, no hard highlights, subtle cool
+highlights only on the ceramic mug rim and the glasses frames, the rest
+mostly cream and soft beige tones. Wide framing with lots of empty linen
+above the objects. Shot on iPhone 15 Pro, rear camera, slightly angled
+top-down view, tight crop, intentionally asymmetric composition, slight
+chromatic aberration, minor JPEG compression artifacts, slight noise in
+shadows. Minimal personal-gallery aesthetic. 4:5 aspect ratio. No text,
+no captions, no readable book title, no brand logos. Avoid: stock photo
+feel, lifestyle ad aesthetic, professional photography, studio lighting,
+HDR glow, commercial product shot, evenly lit, balanced composition,
+symmetrical composition, objects in upper half of frame, dark moody
+lighting, heavy shadows, near-black tones, tungsten warmth, neon, LED glow.
+```
+**Hook text:** `"Slow" / "The slower my mornings, the faster the rest of the day moves."`
+
+---
+
+## Niche library — GOLDEN HOUR EURO
+
+### ✈️ Slow-travel travertine terrace
+
+```
+Top-down iPhone photo of a sun-warmed travertine terrace table, shot with
+significant empty stone space filling the top half of the frame. In the
+lower half: a small white ceramic espresso cup placed asymmetrically
+slightly to the left of center with a thin shadow raking across the stone,
+a black-cover passport in the middle-right, a pair of tortoiseshell
+sunglasses at the bottom-right edge partially cropped by the frame, a
+single green olive sprig next to the cup. Low golden-hour sidelight from
+the upper-left, warm long shadows raking diagonally across the travertine,
+subtle lens flare at the upper-left edge, subtle warm highlights only on
+the cup rim and the metal hinge of the sunglasses, the rest mostly honey
+amber and sun-warmed beige tones. Wide framing with lots of empty pale
+stone above the objects. Shot on iPhone 15 Pro, rear camera, slightly
+angled top-down view, tight crop, intentionally asymmetric composition,
+slight chromatic aberration, minor JPEG compression artifacts, slight noise
+in highlights. Warm personal-gallery aesthetic, like a slow afternoon
+travel photo. 4:5 aspect ratio. No text, no captions, no readable labels,
+no brand logos, no country name on passport. Avoid: stock photo feel,
+travel magazine aesthetic, professional photography, studio lighting, HDR
+glow, commercial product shot, evenly lit, balanced composition,
+symmetrical composition, objects in upper half of frame, nighttime, cool
+blue tones, LED lighting, dark moody lighting, overcast, cloudy.
+```
+**Hook text:** `"Slow Travel" / "The best trips don't come with an itinerary. Just a long lunch and nowhere to be after."`
+
+### 🍷 Mediterranean lunch table
+
+```
+Top-down iPhone photo of a rattan-topped outdoor lunch table with a pale
+linen runner, shot with significant empty rattan-and-linen space filling
+the top half of the frame. In the lower half: a small ceramic plate with a
+torn piece of sourdough bread placed asymmetrically slightly to the right
+of center, a short tumbler of golden olive oil in the middle-left, a small
+bunch of purple grapes at the bottom-right edge partially cropped by the
+frame. Low golden-hour sidelight from the upper-right, warm long shadows
+raking diagonally across the table, subtle lens flare at the upper-right
+edge, subtle warm highlights only on the rim of the tumbler and the grapes,
+the rest mostly honey amber, olive green, and sun-warmed beige tones. Wide
+framing with lots of empty rattan above the objects. Shot on iPhone 15 Pro,
+rear camera, slightly angled top-down view, tight crop, intentionally
+asymmetric composition, slight chromatic aberration, minor JPEG compression
+artifacts, slight noise in highlights. Warm personal-gallery aesthetic,
+like a long Mediterranean lunch photo. 4:5 aspect ratio. No text, no
+captions, no readable labels, no brand logos. Avoid: stock photo feel,
+food magazine aesthetic, professional photography, studio lighting, HDR
+glow, commercial product shot, evenly lit, balanced composition,
+symmetrical composition, objects in upper half of frame, nighttime, cool
+blue tones, LED lighting, dark moody lighting, overcast, cloudy.
+```
+**Hook text:** `"Pause" / "An hour at lunch isn't lost time. It's the only part of the day that isn't optimized — and it's the part I remember."`
+
+---
+
 ## Diagnostic table — when output doesn't match
 
 After generating, compare your result to the reference. If something's wrong,
@@ -395,10 +702,16 @@ desk, sneakers, watch.
 
 1. **Generate 4 personal-gallery photos** using the formula above.
    All 4 must share:
-   - Same aesthetic (all dark, moody, low-key)
-   - Same lighting approach (warm, one-direction highlights)
-   - Similar color palette (all dark browns/charcoals/blacks)
+   - **Same vibe pack** (all Dark Warm, OR all Blue Neon Night, OR all City Skyline Luxury, etc. — never mixed)
+   - Same lighting direction convention (all upper-left OR all upper-right)
+   - Same palette (per the vibe pack's palette definition)
    - Related theme (e.g. "4 investments" — car + desk + sneakers + watch)
+
+> ⚠ **Text color for bright-vibe grids:** the default `compose-grid-cover.js`
+> renders white text with a subtle shadow — readable on Dark Warm, Blue Neon
+> Night, and City Skyline Luxury. For **Cold Minimal AM** and **Golden Hour
+> Euro** (bright backgrounds), white text disappears. Overlay dark text
+> manually in Canva/Figma, or extend the script to accept `--text-color`.
 
 2. **Compose them into a 2x2 grid with centered hook text:**
 
@@ -467,6 +780,7 @@ Never do ANY of these. Each one breaks the vibe:
 - ❌ Branded items (`Apple MacBook`, `Rolex watch`) → describe generically (`silver laptop`, `leather-strap wristwatch`)
 - ❌ Any aspect ratio other than 4:5 → always 4:5
 - ❌ Any positive mood word (`inspiring`, `aspirational`, `luxurious`) → describe visually, not emotionally
+- ❌ Mixing vibe packs within one carousel or 2x2 grid → pick ONE vibe for every slide in a set
 
 ---
 
@@ -474,14 +788,16 @@ Never do ANY of these. Each one breaks the vibe:
 
 Run through this list BEFORE sending to Nano Banana:
 
+- [ ] **Vibe pack chosen first** → Dark Warm / Blue Neon Night / City Skyline Luxury / Cold Minimal AM / Golden Hour Euro
 - [ ] `{ANGLE}` is filled → `Top-down` or `First-person POV`
-- [ ] `{SURFACE}` is dark (charcoal, black, brown, grey, muted)
-- [ ] Prompt starts with `...shot with significant empty {SURFACE} space filling the top half of the frame`
+- [ ] `{SURFACE}` is from the chosen vibe pack's surface list
+- [ ] Prompt starts with `...shot with significant empty {SURFACE} space filling the top half of the frame` *(or skyline bokeh if City Skyline Luxury)*
 - [ ] Hero object description includes `placed asymmetrically slightly to the {left|right} of center`
 - [ ] At least one prop is `partially cropped by the frame edge`
-- [ ] Lighting line includes `Very dim low-key warm lighting from the upper-{left|right}`
-- [ ] Lighting line includes `deep heavy shadows dominating the whole frame`
-- [ ] Lighting line includes `subtle warm highlight only on {ONE thing}`
+- [ ] Lighting line matches the chosen vibe pack's lighting phrase (temperature + direction)
+- [ ] Lighting has ONE direction (upper-left OR upper-right — never "even" / "from above")
+- [ ] Subtle highlight appears on ONE detail only, in the vibe pack's accent color
+- [ ] Vibe pack's extra negatives are appended at the end *(e.g. exclude warm tones in Blue Neon, exclude heavy shadows in Cold Minimal, etc.)*
 - [ ] `Shot on iPhone 15 Pro, rear camera` is present
 - [ ] `intentionally asymmetric composition` is present
 - [ ] `slight chromatic aberration, minor JPEG compression artifacts, slight noise in shadows` is present
