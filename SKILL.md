@@ -62,15 +62,22 @@ User wants an image with a person?
 │
 └── Is it a social media hook (Instagram / TikTok / Reels)?
     │
-    ├── YES → Use templates/viral-hook-real-person.md
-    │         Emphasize AUTHENTICITY (iPhone, candid, imperfection)
-    │         Reference: photorealism-core.md + skin-texture.md
+    ├── Subject is a PERSON with face visible?
+    │   │
+    │   ├── YES → Use templates/viral-hook-real-person.md
+    │   │         + read reference/camera-roll-energy.md FIRST
+    │   │         (kill photographer moves — golden hour, bokeh, centered, posed)
+    │   │
+    │   └── NO (object / flat-lay / POV no-face)
+    │         → Use templates/personal-gallery-aesthetic.md
+    │         (moody low-key lighting, dark surfaces, tight crop, 4:5)
     │
-    └── NO  → Pick the closest template:
-              - candid-phone-selfie.md (casual lifestyle)
+    └── NOT a hook — pick the closest template:
+              - candid-phone-selfie.md (casual lifestyle with face)
               - founder-working.md (LinkedIn / professional)
-              - travel-candid.md (outdoor / environmental)
+              - travel-candid.md (outdoor / environmental with face)
               - lifestyle-portrait.md (editorial / curated)
+              - personal-gallery-aesthetic.md (objects / POV / flat-lay)
 ```
 
 ---
@@ -217,7 +224,8 @@ SKILL.md                    ← you are here
 README.md                   ← GitHub landing page
 
 templates/
-  viral-hook-real-person.md       ← Instagram/TikTok hook images (user's #1 use case)
+  viral-hook-real-person.md       ← Viral hooks w/ person (face visible, camera-roll)
+  personal-gallery-aesthetic.md   ← POV / flat-lay / object shots (no face, moody, 4:5)
   candid-phone-selfie.md          ← Amateur phone snapshot aesthetic
   founder-working.md              ← LinkedIn / professional portrait
   travel-candid.md                ← Outdoor / environmental lifestyle
