@@ -1,267 +1,433 @@
-# Template: Personal Gallery Aesthetic
+# Template: Personal Gallery Aesthetic (COOKBOOK — FOLLOW EXACTLY)
 
 **Use when:** the image should read as *"a photo I took for my own Instagram"*
 — intentional but not performative. POV angles, dark moody lighting, one subject
 with 1–2 props, tight crop. No faces usually.
 
-**This is a distinct aesthetic from camera-roll candid.** Not "friend snapped
-this of me." More like "I noticed something nice on my desk / at the gym /
-on my counter and took a moody picture of it."
-
-**Reference examples** that match this mode:
-- POV looking down at your own feet at the gym, with a kettlebell between them
-- Flat-lay of your desk (keyboard, camera, watch) on a black leather mat
-- Over-shoulder view of your hand holding a coffee mug against a dark counter
-- Close-up of a book on a linen bedsheet with dim window light
-- Top-down of sneakers on a dark floor
+> **STOP.** This is a prescriptive cookbook, not a guideline. If you deviate
+> from the formula below, the output will NOT match the reference aesthetic.
+> Do not add creative flourishes. Do not change the lighting direction.
+> Do not change the aspect ratio. Fill slots, assemble, render. That's it.
 
 ---
 
-## Signal fingerprint
+## The formula (drop-in template)
 
-This aesthetic is defined by:
-
-| Signal | Why |
-|---|---|
-| **POV / flat-lay / over-shoulder angle** | Gallery photos are rarely straight portraits — they're your perspective on objects |
-| **Dark surfaces dominate the frame** | Black rubber floor, leather mat, dark wood, concrete |
-| **Low-key lighting** | Side-lit or top-lit with deep shadows, NOT overcast flat or golden hour |
-| **Tight crop, no environmental context** | You're focused on one moment/object, not documenting a scene |
-| **4:5 aspect ratio** | Instagram feed native — NOT 9:16 (stories/reels) or 1:1 (dated) |
-| **1 hero subject + 1–2 props** | Keyboard as hero + mouse/watch/camera as supporting, not a cluttered scene |
-| **Intentional but not styled** | Items are arranged but look accidental — "I noticed this, didn't set it up" |
-
----
-
-## Template
-
-Fill the `{SLOTS}`. Do not strip the dark-lighting / deep-black / tight-crop tokens.
+This template produces the exact aesthetic of the reference examples every time.
+Fill the `{SLOTS}`. Do not remove any non-slot text. Do not shorten.
 
 ```
-{POV ANGLE - Top-down / First-person / Over-shoulder} iPhone photo of
-{DARK SURFACE} with {HERO SUBJECT described specifically}, {PROP 1 position},
-{PROP 2 position}, {PROP 3 position if relevant — but max 3 items total}.
+{ANGLE} iPhone photo of a {SURFACE}, shot with significant empty {SURFACE}
+space filling the top half of the frame.
 
-Dim low-key {lighting direction} lighting, soft {highlight description} catching
-the {specific material}, deep black shadows on the {surface}, mostly very dark tones.
+In the lower half: {HERO OBJECT with 1 specific descriptor} placed
+asymmetrically {POSITION — "slightly to the right of center" or "slightly
+to the left of center"}, {PROP 1} {PROP 1 position relative to hero},
+{PROP 2} {PROP 2 position relative to hero, often cropped by frame edge}.
 
-Shot on iPhone 15 Pro, rear camera, {slightly angled OR perfect top-down},
-tight crop, {centered OR slight off-center} composition, slight chromatic
-aberration, minor JPEG compression artifacts, slight noise in shadows.
+Very dim low-key warm lighting from the upper-{LIGHT DIRECTION: left|right},
+deep heavy shadows dominating the whole frame, subtle warm highlight only on
+{ONE reflective/metal detail}, the rest mostly deep {COLOR} and near-black
+tones. Wide framing with lots of empty dark {SURFACE} above the objects.
 
-Moody personal-gallery aesthetic, like a photo I took casually for myself.
-4:5 aspect ratio. No text, no captions, no readable labels, no brand logos.
+Shot on iPhone 15 Pro, rear camera, slightly angled top-down view, tight
+crop, intentionally asymmetric composition, slight chromatic aberration,
+minor JPEG compression artifacts, slight noise in shadows. Moody
+personal-gallery aesthetic, like a photo I took casually at home.
 
-Avoid: stock photo feel, product photography, professional photography,
+4:5 aspect ratio. No text, no captions, no readable labels, no brand logos,
+no writing on the {HERO OBJECT}.
+
+Avoid: stock photo feel, {NICHE} ad aesthetic, professional photography,
 bright studio lighting, clinical white background, AI aesthetic, HDR glow,
-commercial product shot, sterile lighting, cluttered composition.
+commercial product shot, evenly lit, balanced composition, symmetrical
+composition, objects in upper half of frame.
 ```
+
+### Slot reference
+
+| Slot | Examples |
+|---|---|
+| `{ANGLE}` | `Top-down` (90% of cases) or `First-person POV looking down at` (for feet/hands) |
+| `{SURFACE}` | dark charcoal marble countertop, matte black leather desk mat, black rubber-tiled gym floor, dark walnut wood desk, rumpled grey linen bedsheet, dark concrete kitchen counter, distressed black wood table |
+| `{HERO OBJECT}` | the one thing that defines the post — see niche library below |
+| `{PROP 1}`, `{PROP 2}` | supporting items — usually 2, max 3 total in frame |
+| `{LIGHT DIRECTION}` | `left` or `right` — pick ONE. Never "from above" or "evenly" |
+| `{ONE reflective/metal detail}` | the metal of the keys, the aluminum of the mouse, the red of the kettlebell, the ceramic rim of the cup |
+| `{COLOR}` | charcoal, black, brown, grey — whatever dominates the surface |
+| `{NICHE}` | real estate, fitness, tech, product, food, travel, lifestyle — used in negatives |
 
 ---
 
-## Worked examples (tested — these produced the user's "that's exactly it" reaction)
+## The composition formula (visual layout)
 
-### Health POV — gym floor + kettlebell + feet
-
-```
-First-person POV iPhone photo looking straight down at my own feet standing on
-a black rubber-tiled gym floor, white low-top sneakers visible, loose black
-sweatpants draped over the sneakers, a red and black kettlebell sitting on the
-floor between the feet with its metal chain handle pointing up. Dim low-key gym
-lighting from the side, deep shadows on the rubber tiles, slight warm glow
-catching the red of the kettlebell, mostly black tones everywhere else. Shot on
-iPhone 15 Pro, rear camera, tight crop, centered but slightly asymmetric
-composition, slight chromatic aberration, minor JPEG compression artifacts,
-slight noise in shadows. Moody personal-gallery aesthetic, like a private photo
-I took for myself. 4:5 aspect ratio. No text, no captions, no readable labels,
-no brand logos. Avoid: stock photo feel, fitness ad aesthetic, professional
-photography, bright lighting, clinical gym, cluttered composition, AI aesthetic,
-HDR glow, white background, commercial product shot.
-```
-
-### Tech flat-lay — black leather desk
+Every shot in this aesthetic follows this spatial layout. Memorize it.
 
 ```
-Top-down iPhone photo of a matte black leather desk mat with an Apple Magic
-Keyboard centered in the lower two thirds of the frame, an Apple Magic Mouse
-in the upper-left corner, a professional mirrorless camera body with 35mm lens
-attached partially cropped by the bottom-right edge of the frame, a leather-strap
-wristwatch in the upper-right corner. Dim low-key desk lighting from above-left,
-soft white highlights catching the tops of the keyboard keys and the aluminum of
-the mouse, deep black shadows on the leather surface, slight warm reflection on
-the camera body, mostly very dark tones. Shot on iPhone 15 Pro, rear camera,
-slightly angled top-down view not a perfect flat-lay, tight crop, mostly centered
-composition, slight chromatic aberration, minor JPEG compression artifacts,
-slight noise in shadows. Moody personal-gallery aesthetic, like a photo of my
-own desk I took casually. 4:5 aspect ratio. No text, no captions, no readable
-labels, no visible brand logos, no writing on keys. Avoid: stock photo feel,
-product photography, professional photography, bright studio lighting, clinical
-white background, AI aesthetic, HDR glow, commercial product shot.
+┌─────────────────────────────────────┐   ← top of frame
+│                                     │
+│          EMPTY DARK SURFACE         │
+│         (40–50% of frame)           │   ← text zone
+│                                     │
+│                                     │
+├─────────────────────────────────────┤   ← horizontal midline
+│           PROP 2                    │
+│   PROP 1       HERO OBJECT          │   ← subject zone
+│                        (asymmetric) │
+│                                     │
+│                           PROP 3    │   ← often cropped by bottom edge
+└─────────────────────────────────────┘   ← bottom of frame
 ```
+
+**Rules:**
+1. **Top 40–50% must be empty.** This is where text goes. If you put anything here, the text overlaps.
+2. **Hero object is asymmetric.** Offset left OR right of center, never centered.
+3. **2–3 supporting props max.** More = cluttered = fails.
+4. **At least one prop is partially cropped by the frame edge.** This signals "I just snapped this, didn't arrange it carefully."
+5. **Lighting from ONE direction (upper-left or upper-right).** Never "from above," never "even."
+6. **Heavy shadows everywhere except one highlight.** Deep blacks dominate.
 
 ---
 
-## Variations for common carousel themes
+## Niche library — copy-paste prompts (tested, work on first try)
 
-### Books / reading
-```
-Top-down iPhone photo of an open paperback book lying on a rumpled grey linen
-bedsheet, a white ceramic mug with faint coffee stain next to it, small brass
-reading lamp partially visible at the top edge casting warm light. Dim warm
-window light from the left, soft shadow of the book on the sheet, mostly muted
-dark tones. Shot on iPhone 15 Pro, rear camera, tight crop, slight off-center
-composition with book in right third, slight chromatic aberration, minor JPEG
-compression, slight noise in shadows. Moody personal-gallery aesthetic, like a
-quiet moment photo. 4:5 aspect ratio. No text, no captions, no readable book
-title or author name. Avoid: stock photo feel, lifestyle ad, bright lighting,
-sterile, AI aesthetic, HDR glow.
-```
+Each of these is a fully filled-in prompt. Copy, paste, modify lightly if needed.
 
-### Morning coffee / food
-```
-Over-shoulder POV iPhone photo of my own hand loosely holding a heavy black
-ceramic mug filled with dark coffee, standing at a matte dark concrete kitchen
-counter, a small square of sourdough toast on a black slate plate partially
-visible in the lower third. Dim warm morning light from the left side, soft
-rim light on the edge of the mug, deep shadows in the cup, mostly dark tones.
-Shot on iPhone 15 Pro, rear camera, tight crop, slight off-center composition,
-slight motion blur on hand, slight chromatic aberration, minor JPEG compression.
-Moody personal-gallery aesthetic, like a quiet morning I photographed. 4:5
-aspect ratio. No text, no captions, no brand logos.
-Avoid: stock photo feel, food magazine, bright lighting, commercial, AI aesthetic,
-HDR glow.
-```
+### 💰 Finance / money / investing
 
-### Travel / object on surface
 ```
-Top-down iPhone photo of a black leather-bound notebook on a dark wooden hotel
-desk, a silver pen resting diagonally across it, a key card in the upper-right
-corner, the corner of a coffee cup cropped in the lower-left edge. Dim warm
-lamp light from the upper-right, soft highlight catching the pen, deep shadows
-in the wood grain, mostly dark tones. Shot on iPhone 15 Pro, rear camera,
-slightly angled top-down, tight crop, slight asymmetric composition, slight
-chromatic aberration, minor JPEG compression. Moody personal-gallery aesthetic.
-4:5 aspect ratio. No text, no captions, no readable writing on notebook or
-key card. Avoid: stock photo, travel magazine, bright lighting, AI aesthetic,
-HDR glow, sterile.
+Top-down iPhone photo of a dark walnut wood desk, shot with significant empty wood
+space filling the top half of the frame. In the lower half: a closed black leather
+notebook placed asymmetrically slightly to the right of center, a silver ballpoint
+pen resting diagonally across the notebook, a small white ceramic espresso cup at
+the bottom-left edge partially cropped by the frame. Very dim low-key warm lighting
+from the upper-right, deep heavy shadows dominating the whole frame, subtle warm
+highlight only on the pen, the rest mostly deep brown and near-black tones. Wide
+framing with lots of empty dark wood above the objects. Shot on iPhone 15 Pro,
+rear camera, slightly angled top-down view, tight crop, intentionally asymmetric
+composition, slight chromatic aberration, minor JPEG compression artifacts, slight
+noise in shadows. Moody personal-gallery aesthetic. 4:5 aspect ratio. No text, no
+captions, no readable labels, no brand logos, no writing on the notebook. Avoid:
+stock photo feel, finance ad aesthetic, professional photography, bright studio
+lighting, clinical white background, AI aesthetic, HDR glow, commercial product
+shot, evenly lit, balanced composition, symmetrical composition, objects in upper
+half of frame.
 ```
+**Hook text:** `"Money" / "Most people think money is about earning more. It's really about understanding what your current money is doing."`
 
-### Gym / fitness object still-life
+### 🏠 Real estate / property
+
 ```
-Top-down iPhone photo of a black foam roller lying on a dark grey rubber gym
-floor, a white sweat towel draped loosely over one end, a stainless water
-bottle standing next to it. Dim low-key gym lighting from above, deep shadows
-on the rubber tiles, slight highlight catching the water bottle, mostly black
-and grey tones. Shot on iPhone 15 Pro, rear camera, tight crop, centered
-composition, slight chromatic aberration, minor JPEG compression, slight noise
-in shadows. Moody personal-gallery aesthetic. 4:5 aspect ratio.
-No text, no captions, no brand logos.
-Avoid: stock photo, fitness ad, bright lighting, clinical gym, AI aesthetic,
-HDR glow, product photography.
+Top-down iPhone photo of a dark charcoal marble kitchen countertop, shot with
+significant empty marble surface filling the top half of the frame. In the lower
+half: a small set of silver house keys on a brown leather keyring placed
+asymmetrically to the right of center, a closed dark leather-bound document folder
+in the lower-left with slight shadow, a small white ceramic espresso cup at the
+bottom-right edge partially cropped by the frame. Very dim low-key warm lighting
+from the upper-right, deep heavy shadows dominating the whole frame, subtle warm
+highlight only on the metal of the keys and the cup rim, the rest mostly deep
+charcoal and near-black tones. Wide framing with lots of empty dark counter above
+the objects. Shot on iPhone 15 Pro, rear camera, slightly angled top-down view,
+tight crop, intentionally asymmetric composition, slight chromatic aberration,
+minor JPEG compression artifacts, slight noise in shadows. Moody personal-gallery
+aesthetic. 4:5 aspect ratio. No text, no captions, no readable labels, no brand
+logos, no writing on the folder. Avoid: stock photo feel, real estate ad aesthetic,
+professional photography, bright studio lighting, clinical white background, AI
+aesthetic, HDR glow, commercial product shot, evenly lit, balanced composition,
+symmetrical composition, objects in upper half of frame.
 ```
+**Hook text:** `"Real Estate" / "Most people think real estate is about returns. It's really about leverage, stability, and owning something you control."`
+
+### 🏋️ Health / fitness
+
+```
+First-person POV looking down at my own feet on a black rubber-tiled gym floor,
+shot with significant empty floor space filling the top half of the frame. The
+feet and legs only appear in the lower half of the image, with white low-top
+sneakers visible and loose black sweatpants. A red kettlebell placed
+asymmetrically on the floor, offset slightly to the right of center, not between
+the feet but just in front of them, its metal chain handle pointing up. Very dim
+low-key gym lighting from the side, heavy deep shadows dominating the whole
+frame, subtle warm highlight only on the red of the kettlebell, the rest mostly
+pure black and near-black tones. Wide framing with lots of empty dark floor above
+the feet. Shot on iPhone 15 Pro, rear camera, tight crop, intentionally asymmetric
+composition, slight chromatic aberration, minor JPEG compression artifacts, heavy
+noise in shadows. Moody personal-gallery aesthetic. 4:5 aspect ratio. No text, no
+captions, no readable labels, no brand logos. Avoid: stock photo feel, fitness ad
+aesthetic, professional photography, bright lighting, clinical gym, cluttered
+composition, AI aesthetic, HDR glow, white background, commercial product shot,
+evenly lit, balanced composition, symmetrical composition, feet in upper half of
+frame.
+```
+**Hook text:** `"Health" / "Health isn't just about the gym. It's also about sleep, good food, and managing your stress levels."`
+
+### 💻 Tech / work / productivity
+
+```
+Top-down iPhone photo of a matte black leather desk mat, shot with significant
+empty leather space filling the top half of the frame. In the lower half: an
+Apple Magic Keyboard centered slightly to the right of center, an Apple Magic
+Mouse in the middle-left, a professional mirrorless camera body with lens
+partially cropped by the bottom-right edge, a leather-strap wristwatch in the
+middle-right. Very dim low-key desk lighting from the upper-left, soft white
+highlights catching only the tops of the keyboard keys and the aluminum of the
+mouse, deep black shadows on the leather surface, the rest mostly deep black
+tones. Wide framing with lots of empty dark leather above the objects. Shot on
+iPhone 15 Pro, rear camera, slightly angled top-down view not a perfect flat-lay,
+tight crop, intentionally asymmetric composition, slight chromatic aberration,
+minor JPEG compression artifacts, slight noise in shadows. Moody personal-gallery
+aesthetic. 4:5 aspect ratio. No text, no captions, no readable labels, no visible
+brand logos, no writing on keys. Avoid: stock photo feel, product photography,
+professional photography, bright studio lighting, clinical white background, AI
+aesthetic, HDR glow, commercial product shot, evenly lit, balanced composition,
+symmetrical composition, objects in upper half of frame.
+```
+**Hook text:** `"Tech Equipment" / "I use this gear daily for my business, so it makes sense to invest in high-quality tools."`
+
+### ✈️ Travel / lifestyle
+
+```
+Top-down iPhone photo of a dark wooden hotel desk, shot with significant empty
+wood space filling the top half of the frame. In the lower half: a small
+black-cover passport placed asymmetrically slightly to the left of center, a pair
+of brown leather-framed sunglasses resting next to it, a small white ceramic
+coffee cup at the bottom-right edge partially cropped by the frame. Very dim
+low-key warm lamp lighting from the upper-right, deep heavy shadows dominating
+the whole frame, subtle warm highlight only on the sunglasses lenses, the rest
+mostly deep brown and near-black tones. Wide framing with lots of empty dark
+wood above the objects. Shot on iPhone 15 Pro, rear camera, slightly angled
+top-down view, tight crop, intentionally asymmetric composition, slight chromatic
+aberration, minor JPEG compression artifacts, slight noise in shadows. Moody
+personal-gallery aesthetic. 4:5 aspect ratio. No text, no captions, no readable
+labels, no brand logos, no country name on passport. Avoid: stock photo feel,
+travel magazine aesthetic, professional photography, bright studio lighting,
+clinical white background, AI aesthetic, HDR glow, commercial product shot,
+evenly lit, balanced composition, symmetrical composition, objects in upper half
+of frame.
+```
+**Hook text:** `"Traveling" / "Once I started making money from my online business, I traveled more. Growing up in a small town, it completely changed my perspective."`
+
+### 📚 Books / reading / learning
+
+```
+Top-down iPhone photo of a rumpled grey linen bedsheet, shot with significant
+empty sheet space filling the top half of the frame. In the lower half: an open
+hardcover book placed asymmetrically slightly to the right of center with pages
+visible but text unreadable, a small white ceramic mug with faint coffee stain
+at the bottom-left edge partially cropped by the frame, a pair of black-framed
+reading glasses resting on top of the open book pages. Very dim low-key warm
+window light from the upper-left, deep heavy shadows dominating the whole frame,
+subtle warm highlight only on the glasses frames, the rest mostly muted grey and
+deep shadow tones. Wide framing with lots of empty dark sheet above the objects.
+Shot on iPhone 15 Pro, rear camera, slightly angled top-down view, tight crop,
+intentionally asymmetric composition, slight chromatic aberration, minor JPEG
+compression artifacts, slight noise in shadows. Moody personal-gallery aesthetic.
+4:5 aspect ratio. No text, no captions, no readable book title or author name.
+Avoid: stock photo feel, lifestyle ad aesthetic, professional photography, bright
+studio lighting, clinical white background, AI aesthetic, HDR glow, commercial
+product shot, evenly lit, balanced composition, symmetrical composition, objects
+in upper half of frame.
+```
+**Hook text:** `"Reading" / "10 books in 2026 changed how I think about money, work, and time. Here's what I took away from each one."`
+
+### ☕ Morning / routine
+
+```
+Top-down iPhone photo of a dark concrete kitchen counter, shot with significant
+empty concrete space filling the top half of the frame. In the lower half: a
+heavy black ceramic mug filled with dark coffee placed asymmetrically slightly
+to the left of center, a small black slate plate with a single square of
+sourdough toast in the middle-right, a stainless steel spoon resting diagonally
+at the bottom-right edge partially cropped by the frame. Very dim low-key warm
+morning light from the upper-right, deep heavy shadows dominating the whole
+frame, subtle warm highlight only on the spoon and mug rim, the rest mostly
+deep grey and near-black tones. Wide framing with lots of empty dark concrete
+above the objects. Shot on iPhone 15 Pro, rear camera, slightly angled top-down
+view, tight crop, intentionally asymmetric composition, slight chromatic
+aberration, minor JPEG compression artifacts, slight noise in shadows. Moody
+personal-gallery aesthetic. 4:5 aspect ratio. No text, no captions, no readable
+labels, no brand logos. Avoid: stock photo feel, food magazine aesthetic,
+professional photography, bright studio lighting, clinical white background, AI
+aesthetic, HDR glow, commercial product shot, evenly lit, balanced composition,
+symmetrical composition, objects in upper half of frame.
+```
+**Hook text:** `"Morning" / "The first 30 minutes after I wake up decide the next 16 hours. No phone. No news. Just coffee and one thing."`
+
+### ⌚ Luxury / quiet wealth
+
+```
+Top-down iPhone photo of a soft black velvet fabric surface, shot with
+significant empty velvet space filling the top half of the frame. In the lower
+half: a single leather-strap wristwatch with a dark silver face placed
+asymmetrically slightly to the right of center, a small pair of silver cufflinks
+in the middle-left, a folded white pocket square at the bottom-left edge
+partially cropped by the frame. Very dim low-key warm lighting from the
+upper-right, deep heavy shadows dominating the whole frame, subtle warm
+highlight only on the watch crystal and the silver of the cufflinks, the rest
+mostly pure black tones. Wide framing with lots of empty dark velvet above the
+objects. Shot on iPhone 15 Pro, rear camera, slightly angled top-down view,
+tight crop, intentionally asymmetric composition, slight chromatic aberration,
+minor JPEG compression artifacts, slight noise in shadows. Moody personal-gallery
+aesthetic. 4:5 aspect ratio. No text, no captions, no readable labels, no brand
+logos. Avoid: stock photo feel, luxury ad aesthetic, professional photography,
+bright studio lighting, clinical white background, AI aesthetic, HDR glow,
+commercial product shot, evenly lit, balanced composition, symmetrical
+composition, objects in upper half of frame.
+```
+**Hook text:** `"Wealth" / "Quiet wealth doesn't announce itself. It shows up in the small decisions nobody else sees."`
+
+### 🎨 Creator / side hustle
+
+```
+Top-down iPhone photo of a dark walnut wood desk, shot with significant empty
+wood space filling the top half of the frame. In the lower half: an open laptop
+with the screen showing a blurred dark interface placed asymmetrically slightly
+to the left of center, an iPhone face-down on the right side of the laptop, a
+small white ceramic coffee cup at the bottom-right edge partially cropped by
+the frame. Very dim low-key warm desk lamp lighting from the upper-left, deep
+heavy shadows dominating the whole frame, subtle warm highlight only on the
+laptop edge and the cup rim, the rest mostly deep brown and near-black tones.
+Wide framing with lots of empty dark wood above the objects. Shot on iPhone 15
+Pro, rear camera, slightly angled top-down view, tight crop, intentionally
+asymmetric composition, slight chromatic aberration, minor JPEG compression
+artifacts, slight noise in shadows. Moody personal-gallery aesthetic. 4:5
+aspect ratio. No text, no captions, no readable labels, no brand logos, no
+readable text on the laptop screen. Avoid: stock photo feel, remote work ad
+aesthetic, professional photography, bright studio lighting, clinical white
+background, AI aesthetic, HDR glow, commercial product shot, evenly lit,
+balanced composition, symmetrical composition, objects in upper half of frame.
+```
+**Hook text:** `"Side Hustle" / "I built my $10K/month business in the 2 hours after work nobody else used. Consistency beats talent every time."`
+
+### 🧘 Wellness / mindfulness
+
+```
+Top-down iPhone photo of a muted grey linen yoga mat on a dark wooden floor,
+shot with significant empty mat space filling the top half of the frame. In
+the lower half: a small white ceramic cup of steaming tea placed asymmetrically
+slightly to the left of center, a single eucalyptus sprig resting diagonally
+next to the cup, a black leather-bound journal at the bottom-right edge
+partially cropped by the frame. Very dim low-key warm window lighting from the
+upper-right, deep heavy shadows dominating the whole frame, subtle warm
+highlight only on the cup rim and the green of the eucalyptus, the rest mostly
+muted grey and deep shadow tones. Wide framing with lots of empty dark mat
+above the objects. Shot on iPhone 15 Pro, rear camera, slightly angled top-down
+view, tight crop, intentionally asymmetric composition, slight chromatic
+aberration, minor JPEG compression artifacts, slight noise in shadows. Moody
+personal-gallery aesthetic. 4:5 aspect ratio. No text, no captions, no readable
+labels, no brand logos, no writing on the journal. Avoid: stock photo feel,
+wellness ad aesthetic, professional photography, bright studio lighting,
+clinical white background, AI aesthetic, HDR glow, commercial product shot,
+evenly lit, balanced composition, symmetrical composition, objects in upper
+half of frame.
+```
+**Hook text:** `"Rest" / "We treat rest like a reward. It should be scheduled like meetings. Sleep isn't optional — it's leverage."`
+
+### 🎒 Minimalism / everyday carry
+
+```
+Top-down iPhone photo of a dark grey felt surface, shot with significant empty
+felt space filling the top half of the frame. In the lower half: a black
+leather wallet placed asymmetrically slightly to the right of center, a silver
+key on a minimalist keyring in the middle-left, an iPhone face-down at the
+bottom-right edge partially cropped by the frame. Very dim low-key warm
+lighting from the upper-left, deep heavy shadows dominating the whole frame,
+subtle warm highlight only on the metal of the key and the iPhone edge, the
+rest mostly deep grey and near-black tones. Wide framing with lots of empty
+dark felt above the objects. Shot on iPhone 15 Pro, rear camera, slightly
+angled top-down view, tight crop, intentionally asymmetric composition, slight
+chromatic aberration, minor JPEG compression artifacts, slight noise in
+shadows. Moody personal-gallery aesthetic. 4:5 aspect ratio. No text, no
+captions, no readable labels, no brand logos. Avoid: stock photo feel, product
+photography, professional photography, bright studio lighting, clinical white
+background, AI aesthetic, HDR glow, commercial product shot, evenly lit,
+balanced composition, symmetrical composition, objects in upper half of frame.
+```
+**Hook text:** `"Everyday Carry" / "Three things. That's all I need to leave the house. Everything else is noise."`
 
 ---
 
-## When to use this vs camera-roll energy
+## Diagnostic table — when output doesn't match
 
-```
-Is the subject a PERSON that should be recognizable (face visible)?
-│
-├── YES → camera-roll energy (friend snapped this)
-│         → use templates/viral-hook-real-person.md
-│
-└── NO → personal gallery aesthetic (I took this of my stuff / POV of myself)
-         → this file
-```
+After generating, compare your result to the reference. If something's wrong,
+check this table.
 
-Both are "authentic" — just different flavors of authentic. Don't mix signals
-between them — e.g. don't use "flat overcast midday light" (camera-roll) with
-POV gym feet (personal gallery). Personal gallery wants low-key moody.
+| Symptom in output | What to change in the prompt |
+|---|---|
+| Too bright, too lit | Change `dim low-key` → `very dim low-key`. Add `heavy shadows dominating` to lighting line. |
+| Objects centered / symmetric | Add `placed asymmetrically slightly to the right/left of center` to hero object. Add `intentionally asymmetric composition` (not "slightly asymmetric") |
+| Text overlaps objects | Your top half isn't empty. Rewrite the first sentence: `shot with significant empty {SURFACE} space filling the top half of the frame`. Add `objects in upper half of frame` to negatives. |
+| Looks like a product shot / ad | Add `{niche} ad aesthetic, commercial product shot` to negatives. Remove any positive adjectives about the objects. |
+| Too many props / cluttered | Reduce to 2–3 props max. One of them MUST be partially cropped by frame edge. |
+| Too clean / sterile white | You probably said "white" somewhere. Swap to dark surface. Never use white/light surface for this aesthetic. |
+| Lighting too even | You probably said "even" or didn't specify direction. Fix to `from the upper-left` or `from the upper-right`. One direction only. |
+| Looks AI-generated | Add more `slight chromatic aberration, minor JPEG compression artifacts, slight noise in shadows`. Check `Shot on iPhone 15 Pro, rear camera` is included. |
+| Wrong aspect ratio | Check `4:5 aspect ratio` is explicitly in the prompt. Remove any `1:1`, `9:16`, `16:9`. |
+| Subject too small or zoomed out | Add `tight crop` explicitly. Remove any `wide shot`, `environmental`. |
 
 ---
 
-## Pairing with hook text — DESIGN THE COMPOSITION FOR THE TEXT
+## Text overlay — final step
 
-The most common failure: you generate a nice moody POV photo, then try to
-overlay text and it sits on top of the subject. Text in these carousels
-is supposed to sit in EMPTY dark space, not on top of the photo content.
-
-**Rule:** if you know the image will have a text overlay, explicitly design
-the composition with a text zone in the prompt.
-
-### The text-zone prompt pattern
-
-Add these phrases to push the subject OUT of the text area:
-
-```
-shot with significant empty {surface} space filling the top half of the frame
-the {subject/feet/object} only appears in the lower half of the image
-wide framing with lots of empty dark {surface} above the {subject}
-```
-
-### Worked example (fixed "Health" that doesn't overlap)
-
-```
-First-person POV iPhone photo looking down at my own feet on a black
-rubber-tiled gym floor, shot with significant empty floor space filling the
-top half of the frame. The feet and legs only appear in the lower half of
-the image, with white low-top sneakers visible and loose black sweatpants.
-A red kettlebell placed asymmetrically on the floor, offset slightly to the
-right of center, not between the feet but just in front of them, its metal
-chain handle pointing up.
-
-Very dim low-key gym lighting from the side, heavy deep shadows dominating
-the whole frame, subtle warm highlight only on the red of the kettlebell,
-the rest mostly pure black and near-black tones. Wide framing with lots of
-empty dark floor above the feet.
-
-Shot on iPhone 15 Pro, rear camera, tight crop, intentionally asymmetric
-composition, slight chromatic aberration, minor JPEG compression artifacts,
-heavy noise in shadows. Moody personal-gallery aesthetic. 4:5 aspect ratio.
-No text, no captions, no readable labels, no brand logos.
-
-Avoid: stock photo feel, fitness ad aesthetic, professional photography,
-bright lighting, clinical gym, cluttered composition, AI aesthetic, HDR glow,
-white background, commercial product shot, evenly lit, balanced composition,
-symmetrical composition, feet in upper half of frame.
-```
-
-### Text style recipes that match the reference look
-
-```
-Title only:
-    HEALTH    (or   Health, sentence case)
-
-Title + body paragraph:
-    Health
-    Health isn't just about the gym. It's also about sleep,
-    good food, and managing your stress levels.
-```
-
-Both use **Inter** bold + regular, left-aligned, white, NO drop shadow
-(the image is already dark enough). Render via:
+After generating the photo, run:
 
 ```bash
 node scripts/add-hook-text.js \
   --style gallery \
-  --input slide.png \
+  --input generated.png \
   --output final.png \
-  --hook "Health" \
-  --body "Health isn't just about the gym. It's also about sleep, good food, and managing your stress levels." \
+  --hook "Your Title" \
+  --body "Your body paragraph here." \
   --align left \
   --title-position top
 ```
 
-Key flags:
-- `--style gallery` (not viral) → enables Inter + no shadow + left alignment
-- `--title-position top` → sits text in the empty upper zone you designed for
-- `--align left` → matches the editorial reference aesthetic
+### Rules for the text content itself
 
-### The composition-for-text checklist
+- **Title:** 1–2 words, sentence case. Examples: `Health`, `Real Estate`, `Morning`, `Tech Equipment`, `Wealth`.
+- **Body:** 1–2 short sentences, ~20–30 words total. Personal voice, not marketing.
+- **Never use all-caps for the title in gallery style.** Reserve that for viral.
+- **Line wrap** will happen automatically at 62% frame width.
 
-Before you render, confirm:
-- [ ] Top 40–50% of the image is empty dark surface (the text zone)
-- [ ] The hero subject/object is in the bottom half or offset to one side
-- [ ] Composition is asymmetric (not centered) — gives visual interest
-- [ ] Heavy shadows dominate — text will be readable over dark floor
-- [ ] 4:5 aspect ratio (Instagram feed native)
+---
+
+## Anti-patterns — the stuff that kills this aesthetic
+
+Never do ANY of these. Each one breaks the vibe:
+
+- ❌ Bright lighting / daylight / golden hour → use `very dim low-key` only
+- ❌ White / bright / colorful surface → use dark surfaces ONLY
+- ❌ Subject in upper half → upper half must be empty for text
+- ❌ Centered composition → always asymmetric, offset left or right
+- ❌ More than 3 props → 1 hero + 1–2 supporting, max
+- ❌ Rule-of-thirds framing → irrelevant here, ignore it
+- ❌ Multiple lighting directions → one side only
+- ❌ Even/ambient lighting → never
+- ❌ Positive adjectives on objects (`beautiful watch`, `elegant keys`) → describe factually
+- ❌ Branded items (`Apple MacBook`, `Rolex watch`) → describe generically (`silver laptop`, `leather-strap wristwatch`)
+- ❌ Any aspect ratio other than 4:5 → always 4:5
+- ❌ Any positive mood word (`inspiring`, `aspirational`, `luxurious`) → describe visually, not emotionally
+
+---
+
+## Final sanity check before rendering
+
+Run through this list BEFORE sending to Nano Banana:
+
+- [ ] `{ANGLE}` is filled → `Top-down` or `First-person POV`
+- [ ] `{SURFACE}` is dark (charcoal, black, brown, grey, muted)
+- [ ] Prompt starts with `...shot with significant empty {SURFACE} space filling the top half of the frame`
+- [ ] Hero object description includes `placed asymmetrically slightly to the {left|right} of center`
+- [ ] At least one prop is `partially cropped by the frame edge`
+- [ ] Lighting line includes `Very dim low-key warm lighting from the upper-{left|right}`
+- [ ] Lighting line includes `deep heavy shadows dominating the whole frame`
+- [ ] Lighting line includes `subtle warm highlight only on {ONE thing}`
+- [ ] `Shot on iPhone 15 Pro, rear camera` is present
+- [ ] `intentionally asymmetric composition` is present
+- [ ] `slight chromatic aberration, minor JPEG compression artifacts, slight noise in shadows` is present
+- [ ] `4:5 aspect ratio` is present
+- [ ] `No text, no captions, no readable labels, no brand logos` is present
+- [ ] Negatives include `stock photo feel, {niche} ad aesthetic, professional photography, bright studio lighting, commercial product shot, evenly lit, balanced composition, symmetrical composition, objects in upper half of frame`
+
+If any box is unchecked, fix before rendering. Do not send a prompt that's
+missing any of these signals — it will drift to AI-slop defaults.

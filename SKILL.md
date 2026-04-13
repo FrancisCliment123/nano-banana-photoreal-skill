@@ -71,6 +71,9 @@ User wants an image with a person?
     │   └── NO (object / flat-lay / POV no-face)
     │         → Use templates/personal-gallery-aesthetic.md
     │         (moody low-key lighting, dark surfaces, tight crop, 4:5)
+    │         ⚠ This is a STRICT COOKBOOK. Fill slots, don't improvise.
+    │         Check the 13-point sanity list before rendering.
+    │         Library of 10+ tested niche prompts included.
     │
     └── NOT a hook — pick the closest template:
               - candid-phone-selfie.md (casual lifestyle with face)
