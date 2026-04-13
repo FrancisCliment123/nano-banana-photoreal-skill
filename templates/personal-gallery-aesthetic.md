@@ -180,23 +180,88 @@ POV gym feet (personal gallery). Personal gallery wants low-key moody.
 
 ---
 
-## Pairing with hook text
+## Pairing with hook text — DESIGN THE COMPOSITION FOR THE TEXT
 
-Personal-gallery images work well with **short label-style** hook overlays
-(1–3 words), like the reference examples showed:
-- **"Health"**
-- **"Tech Equipment"**
-- **"Morning"**
-- **"Focus"**
+The most common failure: you generate a nice moody POV photo, then try to
+overlay text and it sits on top of the subject. Text in these carousels
+is supposed to sit in EMPTY dark space, not on top of the photo content.
 
-Use a larger font, positioned top-left or top-center, with a thin subtitle
-underneath:
+**Rule:** if you know the image will have a text overlay, explicitly design
+the composition with a text zone in the prompt.
+
+### The text-zone prompt pattern
+
+Add these phrases to push the subject OUT of the text area:
 
 ```
-HEALTH
-Health isn't just about the gym. It's also about sleep,
-good food, and managing your stress levels.
+shot with significant empty {surface} space filling the top half of the frame
+the {subject/feet/object} only appears in the lower half of the image
+wide framing with lots of empty dark {surface} above the {subject}
 ```
 
-This label + subtitle format matches the "curated personal brand carousel"
-aesthetic the reference images come from.
+### Worked example (fixed "Health" that doesn't overlap)
+
+```
+First-person POV iPhone photo looking down at my own feet on a black
+rubber-tiled gym floor, shot with significant empty floor space filling the
+top half of the frame. The feet and legs only appear in the lower half of
+the image, with white low-top sneakers visible and loose black sweatpants.
+A red kettlebell placed asymmetrically on the floor, offset slightly to the
+right of center, not between the feet but just in front of them, its metal
+chain handle pointing up.
+
+Very dim low-key gym lighting from the side, heavy deep shadows dominating
+the whole frame, subtle warm highlight only on the red of the kettlebell,
+the rest mostly pure black and near-black tones. Wide framing with lots of
+empty dark floor above the feet.
+
+Shot on iPhone 15 Pro, rear camera, tight crop, intentionally asymmetric
+composition, slight chromatic aberration, minor JPEG compression artifacts,
+heavy noise in shadows. Moody personal-gallery aesthetic. 4:5 aspect ratio.
+No text, no captions, no readable labels, no brand logos.
+
+Avoid: stock photo feel, fitness ad aesthetic, professional photography,
+bright lighting, clinical gym, cluttered composition, AI aesthetic, HDR glow,
+white background, commercial product shot, evenly lit, balanced composition,
+symmetrical composition, feet in upper half of frame.
+```
+
+### Text style recipes that match the reference look
+
+```
+Title only:
+    HEALTH    (or   Health, sentence case)
+
+Title + body paragraph:
+    Health
+    Health isn't just about the gym. It's also about sleep,
+    good food, and managing your stress levels.
+```
+
+Both use **Inter** bold + regular, left-aligned, white, NO drop shadow
+(the image is already dark enough). Render via:
+
+```bash
+node scripts/add-hook-text.js \
+  --style gallery \
+  --input slide.png \
+  --output final.png \
+  --hook "Health" \
+  --body "Health isn't just about the gym. It's also about sleep, good food, and managing your stress levels." \
+  --align left \
+  --title-position top
+```
+
+Key flags:
+- `--style gallery` (not viral) → enables Inter + no shadow + left alignment
+- `--title-position top` → sits text in the empty upper zone you designed for
+- `--align left` → matches the editorial reference aesthetic
+
+### The composition-for-text checklist
+
+Before you render, confirm:
+- [ ] Top 40–50% of the image is empty dark surface (the text zone)
+- [ ] The hero subject/object is in the bottom half or offset to one side
+- [ ] Composition is asymmetric (not centered) — gives visual interest
+- [ ] Heavy shadows dominate — text will be readable over dark floor
+- [ ] 4:5 aspect ratio (Instagram feed native)
