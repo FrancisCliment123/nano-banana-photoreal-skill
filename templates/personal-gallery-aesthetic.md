@@ -382,6 +382,66 @@ node scripts/add-hook-text.js \
   --title-position top
 ```
 
+---
+
+## ALTERNATIVE FORMAT: 2x2 Grid Cover (carousel hook slide)
+
+**Use when:** making a carousel hook cover that combines 4 lifestyle photos
+into a single grid image with a big centered hook across all four. Example:
+"Best investments I've made in my 20s:" with 4 photos representing car,
+desk, sneakers, watch.
+
+### Recipe
+
+1. **Generate 4 personal-gallery photos** using the formula above.
+   All 4 must share:
+   - Same aesthetic (all dark, moody, low-key)
+   - Same lighting approach (warm, one-direction highlights)
+   - Similar color palette (all dark browns/charcoals/blacks)
+   - Related theme (e.g. "4 investments" — car + desk + sneakers + watch)
+
+2. **Compose them into a 2x2 grid with centered hook text:**
+
+```bash
+node scripts/compose-grid-cover.js \
+  --images photo1.png photo2.png photo3.png photo4.png \
+  --output final.png \
+  --hook "Best investments I've made in my 20s:" \
+  --position center
+```
+
+### Options
+
+| Flag | Default | Description |
+|---|---|---|
+| `--images` | (required) | 4 image paths, space-separated |
+| `--output` | (required) | output PNG path |
+| `--hook` | (required) | the centered hook text |
+| `--width` | 1080 | output width |
+| `--height` | 1350 | output height (4:5 = 1080x1350) |
+| `--gap` | 0 | pixels of black gap between cells (0 = seamless) |
+| `--font` | inter | inter / anton / bebas |
+| `--position` | center | center / top / bottom |
+
+### Tips for grid covers
+
+- **4 photos must feel coherent.** If one is bright and three are dark, the grid looks wrong.
+- **Don't put critical details in the corners** where the hook text will sit — the center of the grid is text zone.
+- **Hook should be 5–8 words max.** Short enough to read at thumbnail scale.
+- **Use `--position center`** as default. Top/bottom are for when the bottom-row or top-row photos have lots of visual action that would fight the text.
+- **Inter Extra Bold (800)** is the default font — matches the viral grid aesthetic.
+- **Subtle text shadow** (already baked in) keeps the text readable over any of the 4 photos without making it look dated.
+
+### Example grid themes
+
+| Theme | 4 photos suggestion | Hook |
+|---|---|---|
+| Best investments in my 20s | Car / Desk / Sneakers / Watch | "Best investments I've made in my 20s:" |
+| Morning routine | Coffee / Journal / Gym / Book | "My 6am routine that changed everything:" |
+| What I'd do differently | Books / Cash / Phone / Keys | "What I'd do differently at 22:" |
+| Stack of habits | Gym / Laptop / Book / Water | "4 habits. 4 years. Different life." |
+| Signs you're building wealth | Bank card / Calendar / Notebook / Phone | "Signs you're actually building wealth:" |
+
 ### Rules for the text content itself
 
 - **Title:** 1–2 words, sentence case. Examples: `Health`, `Real Estate`, `Morning`, `Tech Equipment`, `Wealth`.
