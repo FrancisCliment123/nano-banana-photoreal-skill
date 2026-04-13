@@ -239,6 +239,7 @@ reference/
   skin-texture.md                 ← Anti-plastic skin tokens
   negative-prompts.md             ← Copy-paste exclusion blocks
   text-rendering.md               ← The two-step method + code
+  text-styles.md                  ← Exact font/size/weight specs for viral + gallery
 
 scripts/
   add-hook-text.js                ← Playwright overlay for Step 2 (hook text on photo)
